@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-<script src="animation.js"></script>
+  <script src="animation.js"></script>
 
 
   <title>My Profile Page</title>
@@ -22,14 +25,14 @@
   <span onclick="openNav()"><i class="fa fa-minus-square" aria-hidden="true"></i></span>
 
   <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-  <div id="main">
-    <div class= "container">
+  <!--  <div id="main"> -->
+    <!-- <div class= "container">
       <div class= "card text-center">
         <img src="images/profilepic copy.jpg" alt="Alexander Pieczka" class= profilepic>
         <h1>Alexander Pieczka</h1>
         <h2>Programmer</h2>
         <p>This is my first webpage and theirfore a playground for me to test out new ideas and other things.</p>
-        <a href="https://www.lewagon.com" target="_blank" class= "btn_blue">
+        <a href="https://www.lewagon.com" target="_blank" class= "btn btn-start">
           Learn Coding
         </a>
       </div>
@@ -51,6 +54,62 @@
         </tbody>
       </div>
     </div>
+  </div> -->
+  <div class="container">
+
+    <div class="main">
+      <div class="grid">
+        <div class="card-profile">
+          <div class="card main">
+            <div class="card-content">
+              <img src="images/profilepic copy.jpg" alt="Avatar" width="150" class="img-circle">
+              <h2>Alexander Pieczka</h2>
+              <p>Rookie Programmer</p>
+              <a href="https://www.lewagon.com/" class="btn btn-primary btn-lg">Learn to Code</a>
+            </div>
+          </div>
+          <div class="card secondary">
+            <div class="card-content">
+              <h3>17</h3>
+              <p>Fellow Students</p>
+            </div>
+          </div>
+          <div class="card secondary">
+            <div class="card-content">
+              <h3>5th</h3>
+              <p>Week in Bootcamp</p>
+            </div>
+          </div>
+          <div class="card secondary">
+            <div class="card-content">
+              <h3>18</h3>
+              <p>Flashcards done</p>
+            </div>
+          </div>
+          <div class="card bio">
+            <div class="card-content">
+              <h3>What I am currently doing!</h3>
+              <p class="text-justify">
+                I am a Programmer in the making. I am learning to Code with Le Wagons 9-week bootcamp program. I really enjoy the bootcamp!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </div>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

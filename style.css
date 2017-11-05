@@ -1,106 +1,17 @@
+@import url("components/card.css");
+@import url("components/avatar.css")
+@import url("components/sidebar.css")
+@import url("components/button.css")
+@import url("components/start.css")
+
 body {
-  background-image: url("images/cartoon_mountain.gif");
-  background-size: cover;
   font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2, h3{
-  color: #000807;
-}
-
-h1 {
-  font-family: 'Bree Serif', serif;
-}
-
-h2, h3{
-  font-weight: 300;
-}
-
-.profilepic{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-.bigpic{
-  width: 300px;
-  height: 300px;
-}
-.bigger{
-  width: 300px;
-  height: 325px;
-}
-
-.btn_blue{
-  background-color: #007991;
-  color: white;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 30px;
-  padding: 10px;
-
-}
-.btn_blue:hover{
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-a {
-  color: #3E5C76;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-a:hover {
-  color: #FFFFFF;
-}
-.text-center{
-  text-align: center;
-  justify-content:center;
-
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
-}
-.card{
-  background-color: #B4ADA3;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-ul{
-  list-style-type: none;
-}
-ul li{
-  display: inline;
-  padding: 50px;
-
+  background-color: rgb(238, 242, 239);
 }
 
 
-div{
-  display: block;
-}
 
-@media (max-width: 960px) {
-  .container{
-    width:700px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
-}
-
-
+/* -----------------------------------------------------*/
 
 /* The side navigation menu */
 .sidenav {
@@ -116,7 +27,6 @@ div{
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-/* The navigation menu links */
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
